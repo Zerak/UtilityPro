@@ -7,7 +7,7 @@
 *     File_base        : MemoryPool
 *     File_ext         : hpp
 *     Author           : GNUnix <Kingbug2010@gmail.com>
-*     Description      : 
+*     Description      :
 *
 *     <Change_list>
 */
@@ -15,6 +15,7 @@
 #ifndef _MemPool_hpp_
 #define _MemPool_hpp_
 
+#include <string.h>
 #include "ScopedLock.hpp"
 
 class MemoryBlock
